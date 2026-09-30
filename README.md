@@ -14,6 +14,9 @@ Engineered a **Resilient Workflow Architecture** in n8n utilizing conditional **
 3. **Happy Path (True Branch):** Processes normal operational data seamlessly when conditions are met.
 4. **Error Handler Path (False Branch):** Automatically routes failed or malformed payloads into a secondary handler branch for logging, alerting, or retry mechanisms.
 
+<img width="1145" height="457" alt="image" src="https://github.com/user-attachments/assets/4bd9772a-6c6a-42ac-aa73-548a2fe5173d" />
+
+
 ## 🧰 Tools & Nodes Used
 - **Platform:** n8n (Self-hosted / Cloud)
 - **n8n Nodes:** 
@@ -21,6 +24,9 @@ Engineered a **Resilient Workflow Architecture** in n8n utilizing conditional **
   - HTTP Request (with configuration for failure isolation)
   - IF Node (Conditional data routing)
   - Code Node / Set Node (Data transformation & labeling)
+ 
+<img width="1124" height="748" alt="image" src="https://github.com/user-attachments/assets/37fd6e3d-8792-4848-983e-7673292cd4a3" />
+
 
 ## 🚀 Business Value & Impact
 - **System Reliability:** Prevents total workflow crashes when external endpoints fail.
